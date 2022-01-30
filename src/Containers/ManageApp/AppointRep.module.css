@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    width: 99%;
+    margin-left: 10px;
+    
+}
+.subcontainer{
+    height: 500px;
+    margin-right: 15%;
+    margin-left: 5%;
+}
+.subcontainer1{
+    height: 500px;
+    margin-left: 10%;
+}
+.head{
+    width: 500px;
+}
+.li{
+    margin-top: 10px;
+    width: 300px;
+    background-color: turquoise;
+}

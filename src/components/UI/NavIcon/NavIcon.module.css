@@ -1,0 +1,40 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-bottom: 1px solid #ededed;
+    height: 50px;
+}
+.Container:hover{
+    background-color: #f9f9f9;
+}
+.icon{
+    color:#696969;
+}
+.text{
+    font-size: 15px;
+    font-weight: 500;
+    color:#696969;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text.active,.text:active{
+    color: salmon;
+    border-bottom: 2px solid salmon;
+}
+.text.active>span>.icon{
+    color: salmon;
+}
+.text:active>span>.icon{
+    color: salmon;
+}
+@media(max-width:800px){
+    .Container{
+        width: 100px;
+    }
+}

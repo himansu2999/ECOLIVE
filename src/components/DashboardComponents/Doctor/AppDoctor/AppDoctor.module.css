@@ -1,0 +1,45 @@
+.Top{
+    display: flex;
+}
+.Container{
+    width: 99%;
+    margin-left: 10px;
+    height: calc( 100vh - 250px );
+    overflow-y:scroll;
+}
+.ListItem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.list{
+    width: 100%;
+}
+.iconSend{
+    margin-right: 50px;
+}
+.iconDelete{
+    margin-right: 30px;    
+}
+.Send{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #1dafff;
+    margin-right: 50px;
+}
+.ListItem:hover{
+    box-shadow: 2px 2px 5px #aaaaaa;
+    color: salmon;
+}.Heading{
+    margin-right: 50px;
+}
+.MainConent{
+    margin-right: 120px;
+}
+@media(max-width:800px){
+    .Container{
+        width: 98%;
+    }
+}
+

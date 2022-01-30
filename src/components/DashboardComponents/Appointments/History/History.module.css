@@ -1,0 +1,53 @@
+.Top{
+    display: flex;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+    width: 98%;
+    margin-left: 10px;
+}
+
+.ListItem:hover{
+    box-shadow: 2px 2px 5px #aaaaaa;
+    color: salmon;
+}.Filter{
+    height: 165px;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Search{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #484848;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.FilterText{
+    font-size: 25px;
+    font-weight: bold;
+    color: #484848;
+}
+.MainContent{
+    height : calc ( 100vh - 100px );
+}
+.ListItem{
+    display: flex;
+    align-items: center;
+}
+.list{
+    width: 100%;
+}
+.icon{
+    flex: 1;
+    margin-right: 20px;
+}
+.Heading{
+    margin-right: 30px;
+}

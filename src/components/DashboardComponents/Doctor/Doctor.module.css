@@ -1,0 +1,9 @@
+.Doctor{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.Main{
+    width: 100%;
+}

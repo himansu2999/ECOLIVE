@@ -1,0 +1,52 @@
+.Content>a{
+    text-decoration: none;
+}
+.Content{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.Container{
+    height: 30px;
+    margin-top: 10px;
+}
+.Content>a:hover{
+    text-decoration: none;
+}
+.Icon{
+    font-size: 19px;
+    width: 30px;
+    margin-left: 10px;
+}
+.Link{   
+    font-size: 14px;
+    font-weight: 600;
+    color: #484848;
+    display: flex;
+    align-items: center;
+    width: 93%;
+    padding: 5px;
+    height: 25px;
+}
+.ContainerActive{
+    color: #ff6666;
+    background-color: #fae8e8;
+    width: 92%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    height: 25px;
+}
+@media(max-width:800px){
+    .Container{
+        width: 100px;
+    }
+    .ContainerActive{
+        width: 200px;
+    }
+    .Link{
+        font-size: 13px;
+    }
+    .Icon{
+        font-size: 14px;
+    }
+}

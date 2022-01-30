@@ -1,0 +1,209 @@
+.TableBox{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 60px;
+    border:1px solid #ccc;
+}
+.TableHead{
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.Tablebody{
+    height: 30px;
+    outline: none;
+    border: 1px solid white;
+}
+.Tablebody:focus{
+    color: #484848;
+    font-size: 14px;
+    outline: none;
+}
+.Container{
+    display:flex;
+}
+.TableBoxMixed{
+    display: flex;
+}
+.TableHeadMixed{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #484848;
+    font-size: 15px;
+    display: flex;
+    font-weight: 500;
+}
+.Tablebody_A{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #484848;
+    outline: none;
+}
+.Tablebody_B{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #484848;
+    outline: none;
+}
+.TableHeadMixed1{
+    width: 50px;
+    height: 60px;
+    border: 1px solid #484848;
+    font-size: 15px;
+    display: flex;
+    font-weight: 500;
+}
+.Tablebody_A1{
+    width: 300px;
+    height: 60px;
+    border: 1px solid #484848;
+    outline: none;
+}
+.Tablebody_B1{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #484848;
+    outline: none;
+}
+.TableHeadMixed2{
+    width: 50px;
+    height: 60px;
+    border: 1px solid #484848;
+    font-size: 15px;
+    display: flex;
+    font-weight: 500;
+}
+.Tablebody_A2{
+    width: 400px;
+    height: 60px;
+    border: 1px solid #484848;
+    outline: none;
+}
+.Tablebody_B2{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #484848;
+    outline: none;
+}
+.Tablebody_D{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #484848;
+    outline: none;
+}
+.LabelA{
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+    text-align: center;
+}
+.LabelB{
+    text-align: center;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+}
+.LabelC{
+    text-align: center;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+}
+.LabelA1{
+    width: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+    text-align: center;
+}
+.LabelB1{
+    text-align: center;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+}
+.LabelC1{
+    text-align: center;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+}
+.LabelA2{
+    width: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+    text-align: center;
+}
+.LabelB2{
+    text-align: center;
+    width: 400px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+}
+.LabelC2{
+    text-align: center;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+}
+.LabelD{
+    text-align: center;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #484848;
+    height: 40px;
+}
+@media(max-width:800px){
+    .TableBox{
+        width: 85px;
+        height: 80px;
+    }
+    .TableHead{
+        height: 40px;
+    }
+    .TableBoxMixed{
+        width: 80%;
+       margin-right: auto;
+    }
+    .TableHeadMixed{
+        width: 100px;
+    }
+    .Tablebody_A{
+        width: 100px;
+    }
+    .Tablebody_B{
+        width: 200px;
+    }
+    .LabelA{
+        width: 90px;
+    }
+    .LabelB{
+        width: 114px;
+    }
+    .LabelC{
+        width: 180px;
+    }
+}

@@ -1,0 +1,14 @@
+.Notification{
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #dedede;
+    box-shadow: rgba(1,1,1,0.4);
+    background-color: whitesmoke;
+}
+.Container{
+  background-color: #dbdbdb; 
+}

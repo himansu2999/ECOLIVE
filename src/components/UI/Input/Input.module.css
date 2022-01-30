@@ -1,0 +1,112 @@
+.Input {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Label{
+  transition: 0.2s ease all;
+  color:#1dafff;
+  position: absolute;
+  margin-top: -54px;
+  background-color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  margin-left: 12px;
+  animation: animatoon 0.2s ease-out ;
+}
+.Labelb{
+    color:#1dafff;
+    position: absolute;
+    margin-top: -163px;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    margin-left: 12px;
+    animation: textanimatoon 0.2s ease-out ;
+}
+textarea:not(:focus):valid ~ .Labelb{
+    display: none;
+}
+.textElement {
+    outline: none;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    color: black;
+}
+input:not(:focus):valid ~ .Label{
+    display: none;
+}
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.InputElement:focus{
+    outline: none;
+    border: 2px solid #1dafff;
+}
+.faEye{
+    margin-top: -20px;
+    align-content: center;
+}
+.textElement:focus{
+    outline: none;
+    border: 2px solid #1dafff;
+}
+.InputElement:focus::placeholder{
+    color: transparent;
+}
+.textElement:focus::placeholder{
+    color: transparent;
+}
+.invalid{
+    border:2px solid red;
+}
+@keyframes animatoon {
+    0%{
+        font-size: 18px;
+        margin-top: -35px;
+        position: absolute;
+        background-color: white;
+        color:#686868;
+        margin-left: 12px;
+    }
+    100%{
+        color: #1dafff;
+        position: absolute;
+        margin-top: -50px;
+        background-color: white;
+        font-size: 12px;
+        margin-left: 12px;
+    }
+}
+@keyframes textanimatoon {
+    0%{
+        font-size: 18px;
+        margin-top: -145px;
+        position: absolute;
+        background-color: white;
+        color:#686868;
+        margin-left: 12px;
+    }
+    100%{
+        color: #1dafff;
+        position: absolute;
+        margin-top: -165px;
+        background-color: white;
+        font-size: 12px;
+        margin-left: 12px;
+    }
+}

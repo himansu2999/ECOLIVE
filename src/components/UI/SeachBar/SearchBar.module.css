@@ -1,0 +1,25 @@
+
+.SearchBar{
+    background-color: whitesmoke;
+    width: 20%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.SearchIcon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.SearchInput{
+    height: 27px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    border: none;
+    width: 100%;
+    border-radius: 26px;
+}
+.SearchInput:focus{
+    outline: none;
+}

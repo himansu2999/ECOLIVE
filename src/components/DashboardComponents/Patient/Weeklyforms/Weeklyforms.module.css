@@ -1,0 +1,44 @@
+.container{
+    align-content: center;
+    align-items: center;
+    display: relative;
+    overflow-y: scroll;
+    margin-bottom: 40px;
+    height: calc(90vh);
+    margin-left: calc(5vw);
+    width: calc(90vw);
+    background-color: rgb(220, 239, 245);
+}
+.head{
+    align-content: center;
+    margin-left: 35%;
+    margin-right: 30%;
+    font-size: 2em;
+}
+
+.but{
+    background-color: rgb(4, 101, 133);
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: thin black;
+    color: white;
+    margin-top: 1%;
+    height: 5%;
+    width: 40%;
+}
+.but:hover{
+    box-shadow: 0 2px 2px lightgray;
+
+    
+}
+.but:focus{
+    border: 1px solid #484848;
+}
+
+.print{
+    width: 40%;
+    color: blue;
+    margin-left: 30%;
+    margin-top: 1%;
+}

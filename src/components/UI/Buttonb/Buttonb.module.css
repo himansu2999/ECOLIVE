@@ -1,0 +1,19 @@
+.Button {
+    background-color: #1dafff;
+    border: none;
+    color: white;
+    font: inherit;
+    margin: 10px;
+    font-weight: bold;
+    width: 90px;
+    height: 35px;
+    text-align: center;
+}
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+.Button:hover{
+    background-color: lightskyblue;
+    box-shadow: 1px 3px 5px lightblue(46, 229, 157, 0.4);
+}

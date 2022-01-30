@@ -1,0 +1,32 @@
+.Container{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.Title{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+}
+.RoleSelector{
+    display: flex;
+    flex-direction: column;
+}
+.InputBox{
+    padding: 10px;
+}
+.radio{
+    padding: 8px;
+}
+.PersonalDetail{
+    display: flex;
+    
+}
+@media(max-width:800px){
+    .PersonalDetail{
+        display: flex;
+        flex-direction: column;
+    }
+}

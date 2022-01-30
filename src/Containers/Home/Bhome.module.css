@@ -1,0 +1,10 @@
+.Bhome{
+    margin: 0px;
+    padding: 0px;
+}
+.Home{
+    width: 100%;
+    margin-top: 100px;
+    background: white;  /* fallback for old browsers */
+
+}

@@ -1,0 +1,27 @@
+.Container{
+    border-radius: 15px;
+    height: calc( 100vh - 160px );
+    margin-bottom: 40px;
+}
+.form{
+    width: 70%;
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius:20px ;
+}
+.Title{
+    font-size: 20px;
+    text-align:center;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.TableMaker{
+    display: flex;
+    margin-top: 50px;
+}
+.Mixed{
+    margin-top: 50px;
+}

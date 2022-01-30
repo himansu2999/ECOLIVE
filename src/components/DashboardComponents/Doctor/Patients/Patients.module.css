@@ -1,0 +1,47 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ContainerModal{
+    height: calc( 100vh - 200px );
+}
+.ListContainer{
+    display: flex;
+    width: 90%;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ListItem{
+    padding: 10px;
+}
+@media(max-width:800px){
+ .Container{
+     box-sizing: content-box;
+ }   
+}
+.ContainerBox{
+    overflow-y: scroll;
+    height: calc( 100vh - 200px );
+}
+.Add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 35px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    width: 80px;
+}
+.SearchSection{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    justify-content: space-between;
+}

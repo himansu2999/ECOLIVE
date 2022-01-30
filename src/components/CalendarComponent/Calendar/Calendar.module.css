@@ -1,0 +1,155 @@
+.Container{
+    width: 420px;
+}
+.TableHead{
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    height: 50px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+}
+.TableRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 100%;
+}
+.Heading{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+.TableCell{
+    width: 140px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+}
+.MonthCell{
+    width: 300px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    
+}
+.TableCell:hover{
+    background-color: #ededed;
+}
+.TableCell:checked{
+    background-color: rgb(176, 238, 253);
+}
+
+.WeekCell{
+    width: 140px;
+    height: 45px;
+    padding-top: 15px;
+    font-size: 11px;
+    text-align: center;
+    background-color: #efefef;
+}
+.WeekHead{
+    display: flex;
+    font-weight: 600;
+    height: 20px;
+}
+.Today{
+    width: 140px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    color: #484848;
+    background-color: #dedede;
+}
+.Selected{    
+    width: 140px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    color: blue;
+    background-color: #1dafff;
+}
+.Active{    
+    width: 140px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    color: orange;
+    font-weight: 700;
+}
+.MarkDay{
+    width: 140px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    color: green;
+    font-weight: 800;
+    background-color: #1dafff;
+}
+.MarkCurDay{
+    width: 140px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    color: orange;
+    font-weight: 800;
+    background-color: #dedede;    
+}
+.history{
+    width: 140px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    color: green;
+    font-weight: 800;
+
+}
+.AddActivity{
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+}
+.Calendar{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.ActivityList{
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    width: 100%;
+}
+.ApplicationList{
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    width: 730px;
+    height: 390px;
+    overflow-y: scroll;
+}
+.ButtonControl{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}

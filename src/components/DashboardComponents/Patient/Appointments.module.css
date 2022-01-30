@@ -1,0 +1,61 @@
+.Top{
+    display: flex;
+}
+.Container{
+    width: 99%;
+    margin-left: 10px;
+    overflow-y:scroll;
+    margin-bottom: 40px;
+}
+.ListItem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.list{
+    width: 100%;
+    
+}
+.iconSend{
+    margin-right: 50px;
+}
+.iconDelete{
+    margin-right: 30px;    
+}
+.iconback{
+    margin-left: 90px; 
+    margin-top: 20px; 
+    height: 80px;
+    width: 160px;  
+}
+.Send{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #1dafff;
+    margin-right: 50px;
+}
+.Heading{
+    background-color: white;
+    border: thin;
+    color :blue !important;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.ListItem:hover{
+    box-shadow: 2px 2px 5px #aaaaaa;
+    color: salmon;
+    background-color: lightblue;
+}
+.Calendar{
+    height: calc(40vh);
+    width: calc(40vw);
+    margin-left :400px
+}
+
+@media(max-width:800px){
+    .Container{
+        width: 98%;
+    }
+}
+

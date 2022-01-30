@@ -1,0 +1,17 @@
+.Card{
+    height: 350px;
+    width: 250px;
+    border: 1px solid #ccc;
+    margin-bottom: 5%;
+    background-color: lavender;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+}
+.image{
+    height: 200px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,61 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    align-items: center;
+    
+}
+.AutherizationBox{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 400px;
+    border-radius: 10px;
+    height: 400px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.FormHeading{
+    font-size: 22px;
+    font-weight:bold;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+.buttonBox{
+    display: flex;
+}
+.Content{
+    width: 390px;
+    margin-top: 50px;
+    height: 500px;
+    margin-right: 100px;
+}
+.column{
+    display: flex;
+    margin-left: 10px;
+}
+.Title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#1dafff;
+    margin-top: 60px;
+}
+.Options{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: lightskyblue;
+    padding: 7px;
+    background-color: #d9eef7;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.AuthChange{
+    color: rgb(61, 125, 221);
+}
+.AuthChange:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}

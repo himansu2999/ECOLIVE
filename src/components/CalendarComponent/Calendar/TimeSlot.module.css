@@ -1,0 +1,24 @@
+.container{
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+    height: calc(90vh);
+    overflow-y: scroll;
+}
+.slots{
+    background-color: whitesmoke;
+    color: black;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    text-anchor: start;
+    text-align: center;
+    margin-top: 2px;
+    height: 25px;
+    border: black thin;
+    font-weight: 600;
+}
+.slots:hover{
+    background-color: rgb(76, 126, 235);
+    cursor: pointer;
+}

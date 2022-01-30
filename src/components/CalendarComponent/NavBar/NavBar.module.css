@@ -1,0 +1,21 @@
+.NavBar{
+    margin-left: 150px;
+}
+.Container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.Container > a{
+    text-decoration: none;
+    color: lightcoral;
+}
+.Container > a:hover{
+    text-decoration: none;
+    color: coral;
+}
